@@ -4,16 +4,19 @@
 
 ## Start locally / Локално стартиране
 
-TODO
+npm install
+npm run dev
 
 ## Check that it works / Проверка, че работи
 
-TODO: which address do you open and what should you see? / кой адрес отваряте и какво трябва да видите?
+curl -I http://localhost:3000
 
 ## Run the tests / Тестове
 
-TODO
+npm test
 
 ## When something breaks / Когато нещо се счупи
 
-TODO: the first three things you check. / първите три неща, които проверявате.
+npm run logs # или преглед на конзолата, където върви npm run dev
+lsof -i :3000
+rm -rf node_modules package-lock.json && npm install
