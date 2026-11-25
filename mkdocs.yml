@@ -4,24 +4,23 @@ docs_dir: docs
 theme:
   name: material
   features:
-- content.code.copy
+    - content.code.copy
 nav:
-- Home: index.md
-- Service: service.md
-- Runbook: runbook.md
-- Glossary: glossary.md
-- On-call: oncall.md
+  - Home: index.md
+  - Service: service.md
+  - Runbook: runbook.md
+  - Glossary: glossary.md
+  - On-call: oncall.md
   - Checklist: checklist.md
-- Decisions:
-  - adr/index.md
-  - adr/0001-record-architecture-decisions.md
-  - adr/0002-database-for-lab-4.md
-  - adr/0002-database-for-lab-4.md
+  - Decisions:
+    - adr/index.md
+    - adr/0001-record-architecture-decisions.md
+    - adr/0002-database-for-lab-4.md
 markdown_extensions:
-- tables
-- admonition
-- pymdownx.highlight
-- pymdownx.superfences
+  - tables
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
 
 exclude_docs: |
   adr/template.md
