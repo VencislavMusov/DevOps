@@ -1,4 +1,4 @@
-# 0002. Service hosting environment
+# 0003. Service hosting environment
 
 **Status:** Accepted
 
