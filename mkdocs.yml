@@ -6,6 +6,18 @@ theme:
   features:
     - content.code.copy
 nav:
+ feat/t10-adr-hosting
+- Home: index.md
+- Service: service.md
+- Runbook: runbook.md
+- Glossary: glossary.md
+- On-call: oncall.md
+- Decisions:
+  - adr/index.md
+  - adr/0001-record-architecture-decisions.md
+  - adr/0003-database-for-lab-4.md
+  - adr/0003-service-hosting.md
+
   - Home: index.md
   - Service: service.md
   - Runbook: runbook.md
@@ -16,6 +28,7 @@ nav:
     - adr/index.md
     - adr/0001-record-architecture-decisions.md
     - adr/0002-database-for-lab-4.md
+ main
 markdown_extensions:
   - tables
   - admonition
